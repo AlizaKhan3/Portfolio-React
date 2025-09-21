@@ -5,6 +5,7 @@ import oniFood from "../images/oniFood.png"
 import webScrapper from "../images/webScrapper.png"
 import BlogApp from "../images/BlogApp.png"
 import ArestroImg from "../images/Arestro.jpg"
+
 export const Bio = {
   name: "Aliza Khan",
   roles: [
@@ -316,7 +317,7 @@ export const projects = [
     tags: ["React", "MongoDB", "Express.js", "Node.js", "Redux", "JWT", "Tailwind CSS", "Rest APIs"],
     category: ["Website", "All"],
     github: "https://github.com/AlizaKhan3/Real-Estate",
-    // webapp: "https://resarch-catalyst.streamlit.app/",
+    webapp: "https://real-estate-six-theta-68.vercel.app/",
   },
   {
     id: 3,

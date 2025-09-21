@@ -1,4 +1,4 @@
-import { FacebookRounded, Instagram,LinkedIn } from '@mui/icons-material';
+import { FacebookRounded, Instagram,LinkedIn, GitHub } from '@mui/icons-material';
 import React from 'react'
 import styled from 'styled-components'
 import { Bio } from '../../data/constants';
@@ -94,11 +94,14 @@ const Footer = () => {
           <SocialMediaIcon href={Bio.insta} target="display">
           <Instagram/>
           </SocialMediaIcon> */}
+           <SocialMediaIcon href={Bio.github} target="display">
+          <GitHub/>
+          </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
           <LinkedIn/>
           </SocialMediaIcon>
         </SocialMediaIcons>
-      <CopyRight>&copy; 2024 Huzaifa Subhani. All rights reserved.</CopyRight>
+      <CopyRight>&copy; 2024 Aliza Khan. All rights reserved.</CopyRight>
       </FooterWrapper>
     </FooterContainer>
   )
