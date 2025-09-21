@@ -211,7 +211,12 @@ const Hero = () => {
           </motion.div>
           <motion.div {...headContainerAnimation}>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="display">Resume</ResumeButton></motion.div>
+            
+            <ResumeButton href={Bio.resume1} target="display">MERN Stack Developer Resume</ResumeButton>
+            {/* <hr/> */}
+            {/* <ResumeButton href={Bio.resume2} target="display">React JS Developer - Resume</ResumeButton> */}
+
+            </motion.div>
           </HeroLeftContainer>
           <HeroRightContainer>
           <motion.div {...headContainerAnimation}>

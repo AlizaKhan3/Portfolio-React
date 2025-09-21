@@ -18,8 +18,10 @@ export const Bio = {
   description:
     "Aspiring Frontend & MERN Stack Developer with hands-on experience in React.js, Next.js, and TypeScript, along with backend skills in Node.js, Express, and MongoDB. Currently a third-year Computer Science student at UBIT, with two internships and multiple real-world projects (E-commerce, Real Estate, SkyShare). Seeking a frontend or MERN stack role to apply my problem-solving skills, clean coding practices, and passion for building scalable, user-friendly applications",
   github: "https://github.com/AlizaKhan3",
-  resume:
-"https://drive.google.com/file/d/1PrH02ocmFh6KFglC4BrpcfzsI9uWN9VA/view",
+  resume1:
+    "https://drive.google.com/file/d/1VJSH8ci0_TNLHScCOoTBUU6lLC9B3cNY/view?usp=sharing",
+  // resume2:
+  // "https://drive.google.com/file/d/1PrH02ocmFh6KFglC4BrpcfzsI9uWN9VA/view",
   linkedin: "https://www.linkedin.com/in/aliza-khan3/",
   // insta: "https://www.instagram.com/huzaifaaa.exe/",
 };
@@ -298,12 +300,12 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Web Scrapper",
+    title: "Web Scraper",
     date: "August 2025",
-    description: "Developed a responsive e-commerce web app using React, Tailwind CSS, and Redux with dark/light theme support, featuring secure Stripe checkout via Express and Axios.",
+    description: "Built a dynamic web scraper using Next.js, TypeScript, Playwright, Cheerio, and PapaParse that extracts data from any given URL with support for HTML tag-based scraping and mouse selector mode.",
     image: webScrapper,
     tags: ["Next JS", "Typescript", "PlayWright", "PapaParse", "Cheerio", "Tailwind CSS", "Zod Validator"],
-    category: ["Website", "Data Science","All"],
+    category: ["Website", "Data Science", "All"],
     github: "https://github.com/AlizaKhan3/Web-Scrapper-Coderatory",
     webapp: "https://web-scrapper-zeta.vercel.app/",
   },
@@ -325,7 +327,7 @@ export const projects = [
     date: "Nov 2024",
     description:
       "A lightweight web app built with ReactJS and Firebase for seamless text and file sharing across devices, inspired by AirForShare, enabling users to save and access content anytime, anywhere.",
-    image:  skyShareImg,
+    image: skyShareImg,
     tags: [
       "React JS",
       "Firebase",
@@ -348,7 +350,7 @@ export const projects = [
     github: "https://github.com/AlizaKhan3/Ecommerce-React",
     webapp: "https://onestoppk.netlify.app/",
   },
-    {
+  {
     id: 5,
     title: "ARestro",
     date: "September 2025",
